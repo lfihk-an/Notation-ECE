@@ -1,0 +1,211 @@
+<html>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: Courier;
+    font-size: 20px;
+}
+button {
+    background-color: black;
+    border: gray;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: courier;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 25%
+    display: block;
+	  margin:0 auto;
+}
+button:hover{
+  background-color: white;
+  color: black
+}
+</style>
+
+
+
+<body>
+  <h1>Calculer la note d'un candidat pour les ECE</h1><br>
+  <p>Saisir A, B, C ou D pour la compétence "s'approprier" en cliquant sur le bouton:</p>
+  <button type="button" onclick="change_coef1()">
+    <div class="container">
+      <a id="app_coef" onclick="change_coef1()" class="waves-effect waves-light btn">0</a>
+  </button>
+  <button type="button" onclick="change_note1()">
+    <div class="container">
+      <a id="app_note" onclick="change_note1()" class="waves-effect waves-light btn">A</a>
+  </button>
+      <p id="val"></p>
+  <script>
+
+  function change_coef1()
+  {
+    coef1 = document.getElementById('app_coef').textContent;
+    coef1++;
+    if (coef1 == 4) coef1 = 0;
+    app_coef.innerHTML = coef1
+  }
+
+function change_note1()
+  {
+    var note1 = document.getElementById('app_note').textContent;
+    if (note1 == 'A') app_note.innerHTML = 'B';
+    if (note1 == 'B') app_note.innerHTML = 'C';
+    if (note1 == 'C') app_note.innerHTML = 'D' ;
+    if (note1 == 'D') app_note.innerHTML = 'A' ;
+  }
+
+//marche surement pas
+  function valeurcoef ()
+  {
+    if (coef1=='1') val_coef_app=1
+    if (coef1=='2') val_coef_app=2
+    if (coef1=='3') val_coef_app=3
+    if (coef1=='0') val_coef_app=0
+  }
+
+//marche surement pas
+function valeurcoef()
+{
+  if (note1 == 'A') val_note_app = 2;
+  if (note1 == 'B') val_note_app = 1;
+  if (note1 == 'C') val_note_app = -1;
+  if (note1 == 'D') val_note_app = -2;
+}
+  </script>
+
+  <p>Saisir A, B, C ou D pour la compétence "valider" en cliquant sur le bouton:</p>
+  <button type="button" onclick="change_coef()">
+    <div class="container">
+      <a id="val_coef" onclick="change_coef()" class="waves-effect waves-light btn">0</a>
+  </button>
+  <button type="button" onclick="change_note()">
+    <div class="container">
+      <a id="val_note" onclick="change_note()" class="waves-effect waves-light btn">A</a>
+  </button>
+  <script>
+
+  function change_coef()
+  {
+    var coef = document.getElementById('val_coef').textContent;
+    coef++;
+    if (coef == 4) coef = 0;
+    val_coef.innerHTML = coef;
+  }
+  function change_note()
+  {
+    var note = document.getElementById('val_note').textContent;
+    if (note == 'A') val_note.innerHTML = 'B';
+    if (note == 'B') val_note.innerHTML = 'C';
+    if (note == 'C') val_note.innerHTML = 'D';
+    if (note == 'D') val_note.innerHTML = 'A';
+  }
+
+  </script>
+
+  <p>Saisir A, B, C ou D pour la compétence "analyser" en cliquant sur le bouton:</p>
+  <button type="button" onclick="change_coef2()">
+    <div class="container">
+      <a id="ana_coef" onclick="change_coef2()" class="waves-effect waves-light btn">0</a>
+  </button>
+  <button type="button" onclick="change_note2()">
+    <div class="container">
+      <a id="ana_note" onclick="change_note2()" class="waves-effect waves-light btn">A</a>
+  </button>
+  <script>
+
+  function change_coef2()
+  {
+    var coef = document.getElementById('ana_coef').textContent;
+    coef++;
+    if (coef == 4) coef = 0;
+    ana_coef.innerHTML = coef;
+  }
+  function change_note2()
+  {
+    var note = document.getElementById('ana_note').textContent;
+    if (note == 'A') ana_note.innerHTML = 'B';
+    if (note == 'B') ana_note.innerHTML = 'C';
+    if (note == 'C') ana_note.innerHTML = 'D';
+    if (note == 'D') ana_note.innerHTML = 'A';
+  }
+  </script>
+
+  <p>Saisir A, B, C ou D pour la compétence "réaliser" en cliquant sur le bouton:</p>
+  <button type="button" onclick="change_coef3()">
+    <div class="container">
+      <a id="rea_coef" onclick="change_coef3()" class="waves-effect waves-light btn">0</a>
+  </button>
+  <button type="button" onclick="change_note3()">
+    <div class="container">
+      <a id="rea_note" onclick="change_note3()" class="waves-effect waves-light btn">A</a>
+  </button>
+  <script>
+
+  function change_coef3()
+  {
+    var coef = document.getElementById('rea_coef').textContent;
+    coef++;
+    if (coef == 4) coef = 0;
+    rea_coef.innerHTML = coef;
+  }
+  function change_note3()
+  {
+    var note = document.getElementById('rea_note').textContent;
+    if (note == 'A') rea_note.innerHTML = 'B';
+    if (note == 'B') rea_note.innerHTML = 'C';
+    if (note == 'C') rea_note.innerHTML = 'D';
+    if (note == 'D') rea_note.innerHTML = 'A';
+  }
+  </script>
+  <p>Saisir A, B, C ou D pour la compétence "communiquer" en cliquant sur le bouton:</p>
+  <button type="button" onclick="change_coef4()">
+    <div class="container">
+      <a id="com_coef" onclick="change_coef4()" class="waves-effect waves-light btn">0</a>
+  </button>
+  <button type="button" onclick="change_note4()">
+    <div class="container">
+      <a id="com_note" onclick="change_note4()" class="waves-effect waves-light btn">A</a>
+  </button>
+  <script>
+
+  function change_coef4()
+  {
+    var coef = document.getElementById('com_coef').textContent;
+    coef++;
+    if (coef == 4) coef = 0;
+    com_coef.innerHTML = coef;
+  }
+  function change_note4()
+  {
+    var note = document.getElementById('com_note').textContent;
+    if (note == 'A') com_note.innerHTML = 'B';
+    if (note == 'B') com_note.innerHTML = 'C';
+    if (note == 'C') com_note.innerHTML = 'D';
+    if (note == 'D') com_note.innerHTML = 'A';
+  }
+</script>
+
+<p>La note finale est:</p>
+<button type="button" onclick="notefinale()">Calculer!</button>
+<p id="notefinale"></p>
+
+<script>
+function notefinale(){
+  notefin=Math.round(25*(val_coef_app*val_note_app+val_coef_val*val_note_val+val_coef_com*val_note_com+val_coef_rea*val_note_rea+val_coef_ana*val_note_ana+8)/20+0.5/20);
+  document.getElementById("notefinale").innerHTML="La note du candidat est égal à "+notefin+" ."}
+</script>
+
+</body>
+</html>

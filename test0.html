@@ -1,0 +1,183 @@
+<html>
+
+<style>
+body {
+  background-image: url("https://groupe-reussite.fr/wp-content/uploads/2016/09/pc-pt-1024x849.jpg")
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-family: Courier;
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
+
+<body>
+
+<h1><mark>Calculer la note d'un candidat pour les ECE</mark></h1>
+<br>
+<p><mark>Saisir A, B, C ou D pour la compétence "s'approprier" en cliquant sur le bouton:</mark></p>
+<button type="button" onclick="capp()">Saisir</button>
+<p id="app"></p>
+<script>
+function chooseABCD(decision) {
+    if (decision=="A"){
+        return 2
+    }
+    else if (decision=="B") {
+        return 1
+    }
+    else if (decision=="C") {
+        return -1
+    }
+    else if (decision=="D") {
+        return -2
+    }
+    else{
+        return 0
+    }
+}
+function capp() {
+    var e = prompt("Saisir A, B, C, D pour la compétence s'approprier");
+    var f = chooseABCD(e);
+    document.getElementById("app").innerHTML =
+        "Vous aviez saisi " + e + " pour la compétence s'approprier.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "valider" en cliquant sur le bouton:</p>
+<button type="button" onclick="cval()">Saisir</button>
+<p id="val"></p>
+<script>
+function chooseABCD(decision) {
+    if (decision=="A"){
+        return 2
+    }
+    else if (decision=="B") {
+        return 1
+    }
+    else if (decision=="C") {
+        return -1
+    }
+    else if (decision=="D") {
+        return -2
+    }
+    else{
+        return 0
+    }
+}
+function cval() {
+    var g = prompt("Saisir A, B, C, D pour la compétence valider");
+    var h = chooseABCD(g);
+    document.getElementById("val").innerHTML =
+        "Vous aviez saisi " + g + " pour la compétence valider.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "analyser" en cliquant sur le bouton:</p>
+<button type="button" onclick="cana()">Saisir</button>
+<p id="ana"></p>
+<script>
+function chooseABCD(decision) {
+    if (decision=="A"){
+        return 2
+    }
+    else if (decision=="B") {
+        return 1
+    }
+    else if (decision=="C") {
+        return -1
+    }
+    else if (decision=="D") {
+        return -2
+    }
+    else{
+        return 0
+    }
+}
+function cana() {
+    var i = prompt("Saisir A, B, C, D pour la compétence analyser");
+    var j = chooseABCD(i);
+    document.getElementById("ana").innerHTML =
+        "Vous aviez saisi " + i + " pour la compétence analyser.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "réaliser" en cliquant sur le bouton:</p>
+<button type="button" onclick="crea()">Saisir</button>
+<p id="rea"></p>
+<script>
+function chooseABCD(decision) {
+    if (decision=="A"){
+        return 2
+    }
+    else if (decision=="B") {
+        return 1
+    }
+    else if (decision=="C") {
+        return -1
+    }
+    else if (decision=="D") {
+        return -2
+    }
+    else{
+        return 0
+    }
+}
+function crea() {
+    var k = prompt("Saisir A, B, C, D pour la compétence reáliser");
+    var l = chooseABCD(k);
+    document.getElementById("rea").innerHTML =
+        "Vous aviez saisi " + k + " pour la compétence réaliser.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "communiquer" en cliquant sur le bouton:</p>
+<button type="button" onclick="ccom()">Saisir</button>
+<p id="com"></p>
+<script>
+function chooseABCD(decision) {
+    if (decision=="A"){
+        return 2
+    }
+    else if (decision=="B") {
+        return 1
+    }
+    else if (decision=="C") {
+        return -1
+    }
+    else if (decision=="D") {
+        return -2
+    }
+    else{
+        return 0
+    }
+}
+function ccom() {
+    var m = prompt("Saisir A, B, C, D pour la compétence communiquer");
+    var n = chooseABCD(m);
+    document.getElementById("com").innerHTML =
+    "Vous aviez saisi " + m + " pour la compétence communiquer.";
+}
+</script>
+
+<p>La note finale est:</p>
+<button type="button" onclick="note()">Calculer!</button>
+<p id="note"></p>
+<script>
+  "La note du candidat est égal à" + a + " ."
+</script>
+
+</body>
+
+</html>

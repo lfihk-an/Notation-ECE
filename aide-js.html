@@ -1,0 +1,96 @@
+<html>
+
+
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: Courier;
+    font-size: 20px;
+}
+</style>
+
+
+<body>
+
+<h1>Calculer la note d'un candidat pour les ECE</h1>
+<br>
+<p>Saisir A, B, C ou D pour la compétence "s'approprier" en cliquant sur le bouton:</p>
+<button type="button" onclick="capp()">Saisir</button>
+<p id="app"></p>
+<script>
+function capp() {
+    var a = prompt("Saisir A, B, C, D pour la compétence s'approprier");
+    document.getElementById("a").innerHTML =
+        "Vous aviez saisi " + a + " pour la compétence s'approprier.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "valider" en cliquant sur le bouton:</p>
+<button type="button" onclick="cval()">Saisir</button>
+<p id="val"></p>
+<script>
+function cval() {
+    var b = prompt("Saisir A, B, C, D pour la compétence valider");
+    document.getElementById("b").innerHTML =
+        "Vous aviez saisi " + b + " pour la compétence valider.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "analyser" en cliquant sur le bouton:</p>
+<button type="button" onclick="cana()">Saisir</button>
+<p id="ana"></p>
+<script>
+function cana() {
+    var c = prompt("Saisir A, B, C, D pour la compétence analyser");
+    document.getElementById("c").innerHTML =
+        "Vous aviez saisi " + c + " pour la compétence analyser.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "réaliser" en cliquant sur le bouton:</p>
+<button type="button" onclick="crea()">Saisir</button>
+<p id="rea"></p>
+<script>
+function crea() {
+    var e = prompt("Saisir A, B, C, D pour la compétence reáliser");
+    document.getElementById("e").innerHTML =
+        "Vous aviez saisi " + e + " pour la compétence réaliser.";
+}
+</script>
+
+<br>
+<p>Saisir A, B, C ou D pour la compétence "communiquer" en cliquant sur le bouton:</p>
+<button type="button" onclick="ccom()">Saisir</button>
+<p id="com"></p>
+<script>
+function ccom() {
+    var d = prompt("Saisir A, B, C, D pour la compétence communiquer");
+    document.getElementById("d").innerHTML =
+    "Vous aviez saisi " + d + " pour la compétence communiquer.";
+}
+</script>
+
+<script>
+var app=0
+var val=1
+var ana=2
+var rea=1
+var com=0
+var total=20
+var arr=1
+</script>
+
+</body>
+</html>
