@@ -1,7 +1,4 @@
-table {
+table, button {
     width: 100%;
-}
-
-td {
-    height: 200px;
+    height: 100%
 }

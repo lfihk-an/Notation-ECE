@@ -16,49 +16,47 @@
 
 
   <body>
+    <div class="container">
     <h1>Note ECE</h1><br>
 <table class="centered">
   <tr>
-    <td><p>APP</p></td>
-    <td><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="waves-effect waves-light btn" id="app_coef">0</button></td>
-    <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="waves-effect waves-light btn" id="app_note">A</button></td>
+    <td><p class="flow-text">APP</p></td>
+    <td><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-floating btn-large waves-effect waves-light #e57373" id="app_coef">0</button></td>
+    <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="btn-floating btn-large waves-effect waves-light #f06292" id="app_note">A</button></td>
   </tr>
   <tr>
-    <td><p>VAL</p></td>
-    <td><button type="button" onclick="valCoef = change_coef('val_coef',valCoef)" class="waves-effect waves-light btn" id="val_coef">0</button></td>
-    <td><button type="button" onclick="valNote = change_note('val_note',valNote)" class="waves-effect waves-light btn" id="val_note">A</button></td>
+    <td><p class="flow-text">VAL</p></td>
+    <td><button type="button" onclick="valCoef = change_coef('val_coef',valCoef)" class="btn-floating btn-large waves-effect waves-light #ba68c8 " id="val_coef">0</button></td>
+    <td><button type="button" onclick="valNote = change_note('val_note',valNote)" class="btn-floating btn-large waves-effect waves-light #9575cd " id="val_note">A</button></td>
   </tr>
   <tr>
-    <td><p>ANA</p></td>
-    <td><button type="button" onclick="anaCoef = change_coef('ana_coef',anaCoef)" class="waves-effect waves-light btn" id="ana_coef">0</button></td>
-    <td><button type="button" onclick="anaNote = change_note('ana_note',anaNote)" class="waves-effect waves-light btn" id="ana_note">A</button></td>
+    <td><p class="flow-text">ANA</p></td>
+    <td><button type="button" onclick="anaCoef = change_coef('ana_coef',anaCoef)" class="btn-floating btn-large waves-effect waves-light #7986cb" id="ana_coef">0</button></td>
+    <td><button type="button" onclick="anaNote = change_note('ana_note',anaNote)" class="btn-floating btn-large waves-effect waves-light #64b5f6" id="ana_note">A</button></td>
   </tr>
   <tr>
-    <td><p>REA</p></td>
-    <td><button type="button" onclick="reaCoef = change_coef('rea_coef',reaCoef)" class="waves-effect waves-light btn" id="rea_coef">0</button></td>
-    <td><button type="button" onclick="reaNote = change_note('rea_note',reaNote)" class="waves-effect waves-light btn" id="rea_note">A</button></td>
+    <td><p class="flow-text">REA</p></td>
+    <td><button type="button" onclick="reaCoef = change_coef('rea_coef',reaCoef)" class="btn-floating btn-large waves-effect waves-light #4fc3f7 " id="rea_coef">0</button></td>
+    <td><button type="button" onclick="reaNote = change_note('rea_note',reaNote)" class="btn-floating btn-large waves-effect waves-light #4dd0e1" id="rea_note">A</button></td>
 </tr>
 <tr>
-  <td><p>COM</p></td>
-    <td><button type="button" onclick="comCoef = change_coef('com_coef',comCoef)" class="waves-effect waves-light btn" id="com_coef">0</button></td>
-    <td><button type="button" onclick="comNote = change_note('com_note',comNote)" class="waves-effect waves-light btn" id="com_note">A</button></td>
+  <td><p class="flow-text">COM</p></td>
+    <td><button type="button" onclick="comCoef = change_coef('com_coef',comCoef)" class="btn-floating btn-large waves-effect waves-light #4db6ac" id="com_coef">0</button></td>
+    <td><button type="button" onclick="comNote = change_note('com_note',comNote)" class="btn-floating btn-large waves-effect waves-light #81c784" id="com_note">A</button></td>
   </tr>
 </table>
 
 <br>
-<table class="centered">
-  <tr>
-    <td>
-    <button type="button" onclick="notefinale()" class="waves-effect waves-light btn-large">Calculer!</button>
-    <p id="notefinale"></p>
-    </td>
-  </tr>
-</table>
+    <button type="button" onclick="notefinale()" class="waves-effect waves-light btn-large #81c784">Calculer!</button>
+    <p  class="flow-text" id="notefinale"></p>
+
+
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
       <script type="text/javascript" src="cordova.js"></script>
+    </div>
 
   </body>
 </html>
