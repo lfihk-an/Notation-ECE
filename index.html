@@ -16,51 +16,49 @@
   </head>
 
 
-<body style="background-color:#f9f9f9;padding:0px;margin:0px;height:100%;">
-    <div class="container">
+  <body style="font-family:bariol;background-color:#f9f9f9;padding:0px;margin:0px;height:100%;">
 
+    <table>
 
+      <tr>
+        <td>  <img src='img/logo_note_ece.png' width="60" /></td>
+        <td></td>
+      </tr>
 
-    <h1 style="font-family:bariol">Note ECE</h1>
-<table class="centered">
-  <tr>
-    <td></td>
-    <td><p class="flow-text">APP</p><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-small waves-effect waves-light #e57373" id="app_coef">0</button></td>
-    <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="btn-large waves-effect waves-light #f06292" id="app_note">A</button></td>
-  </tr>
-  <tr>
-    <td><p class="flow-text">VAL</p></td>
-    <td><button type="button" onclick="valCoef = change_coef('val_coef',valCoef)" class="btn-floating btn-large waves-effect waves-light #ba68c8 " id="val_coef">0</button></td>
-    <td><button type="button" onclick="valNote = change_note('val_note',valNote)" class="btn-floating btn-large waves-effect waves-light #9575cd " id="val_note">A</button></td>
-  </tr>
-  <tr>
-    <td><p class="flow-text">ANA</p></td>
-    <td><button type="button" onclick="anaCoef = change_coef('ana_coef',anaCoef)" class="btn-floating btn-large waves-effect waves-light #7986cb" id="ana_coef">0</button></td>
-    <td><button type="button" onclick="anaNote = change_note('ana_note',anaNote)" class="btn-floating btn-large waves-effect waves-light #64b5f6" id="ana_note">A</button></td>
-  </tr>
-  <tr>
-    <td><p class="flow-text">REA</p></td>
-    <td><button type="button" onclick="reaCoef = change_coef('rea_coef',reaCoef)" class="btn-floating btn-large waves-effect waves-light #4fc3f7 " id="rea_coef">0</button></td>
-    <td><button type="button" onclick="reaNote = change_note('rea_note',reaNote)" class="btn-floating btn-large waves-effect waves-light #4dd0e1" id="rea_note">A</button></td>
-</tr>
-<tr>
-  <td><p class="flow-text">COM</p></td>
-    <td><button type="button" onclick="comCoef = change_coef('com_coef',comCoef)" class="btn-floating btn-large waves-effect waves-light #4db6ac" id="com_coef">0</button></td>
-    <td><button type="button" onclick="comNote = change_note('com_note',comNote)" class="btn-floating btn-large waves-effect waves-light #81c784" id="com_note">A</button></td>
-  </tr>
-</table>
+      <tr>
+        <td style="width:30%;">APP<br /><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-small waves-effect waves-light blue-grey lighten-3" id="app_coef">0</button></td>
+        <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="btn-large waves-effect waves-light blue darken-3" id="app_note">A</button></td>
+      </tr>
 
-<br>
-    <button type="button" onclick="notefinale()" class="waves-effect waves-light btn-large #81c784">Calculer!</button>
-    <p  class="flow-text" id="notefinale"></p>
+      <tr>
+        <td>VAL<br /><button type="button" onclick="valCoef = change_coef('val_coef',valCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="val_coef">0</button></td>
+        <td><button type="button" onclick="valNote = change_note('val_note',valNote)" class="btn-large waves-effect waves-light blue darken-3" id="val_note">A</button></td>
+      </tr>
 
+      <tr>
+        <td>ANA<br /><button type="button" onclick="anaCoef = change_coef('ana_coef',anaCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="ana_coef">0</button></td>
+        <td><button type="button" onclick="anaNote = change_note('ana_note',anaNote)" class="btn-large waves-effect waves-light blue darken-3" id="ana_note">A</button></td>
+      </tr>
 
+      <tr>
+        <td>REA<br /><button type="button" onclick="reaCoef = change_coef('rea_coef',reaCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="rea_coef">0</button></td>
+        <td><button type="button" onclick="reaNote = change_note('rea_note',reaNote)" class="btn-large waves-effect waves-light blue darken-3" id="rea_note">A</button></td>
+      </tr>
 
-    <!--JavaScript at end of body for optimized loading-->
+      <tr>
+        <td>COM<br /><button type="button" onclick="comCoef = change_coef('com_coef',comCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="com_coef">0</button></td>
+        <td><button type="button" onclick="comNote = change_note('com_note',comNote)" class="btn-large waves-effect waves-light blue darken-3" id="com_note">A</button></td>
+      </tr>
+
+      <tr>
+        <td><button type="button" onclick="notefinale()" class="waves-effect waves-light btn-large #81c784">Calculer!</button></td>
+        <td><p  class="flow-text" id="notefinale"></p></td>
+      </tr>
+
+    </table>
+
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-
-      <script type="text/javascript" src="cordova.js"></script>
-    </div>
+    <script type="text/javascript" src="cordova.js"></script>
 
   </body>
 </html>
