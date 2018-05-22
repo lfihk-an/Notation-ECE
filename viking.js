@@ -36,12 +36,9 @@ return noten;
 }
 
 function notefinale(){
-
-var coefSum = anaCoef + reaCoef + appCoef + comCoef + valCoef;
-
-var calcn = (anaCoef*anaNote + reaCoef*reaNote + appCoef * appNote + comCoef*comNote + valCoef * valNote + 2 * coefSum)/(2 * coefSum);
-var notefin = Math.round(4 + calcn * 8);
-
-document.getElementById("notefinale").innerHTML="La note du candidat est égal à "+notefin+"/20.";
-document.getElementById('notefinale').scrollIntoView();
+  var coefSum = anaCoef + reaCoef + appCoef + comCoef + valCoef;
+  var calcn = (anaCoef*anaNote + reaCoef*reaNote + appCoef * appNote + comCoef*comNote + valCoef * valNote + 2 * coefSum)/(2 * coefSum);
+  var notefin = Math.round(4 + calcn * 8);
+  document.getElementById("notefinale").innerHTML= notefin+"/20";
+  document.getElementById('notefinale').scrollIntoView();
 }

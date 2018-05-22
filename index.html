@@ -1,28 +1,32 @@
-<html>
+<html style="height:100%;">
   <head>
+    <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="vikingstyle.css" />
-    <script src="vikingjs.js"></script>
 
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Cutomization-->
+  	<link type="text/css" rel="stylesheet" href="viking.css"/>
+
+    <script src="viking.js"></script>
   </head>
 
 
-  <body>
+<body style="background-color:#f9f9f9;padding:0px;margin:0px;height:100%;">
     <div class="container">
-    <h1>Note ECE</h1><br>
+
+
+
+    <h1 style="font-family:bariol">Note ECE</h1>
 <table class="centered">
   <tr>
-    <td><p class="flow-text">APP</p></td>
-    <td><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-floating btn-large waves-effect waves-light #e57373" id="app_coef">0</button></td>
-    <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="btn-floating btn-large waves-effect waves-light #f06292" id="app_note">A</button></td>
+    <td></td>
+    <td><p class="flow-text">APP</p><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-small waves-effect waves-light #e57373" id="app_coef">0</button></td>
+    <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="btn-large waves-effect waves-light #f06292" id="app_note">A</button></td>
   </tr>
   <tr>
     <td><p class="flow-text">VAL</p></td>
