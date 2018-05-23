@@ -6,11 +6,9 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Notation ECE</name>
+    <name>Note ECE</name>
 
-    <description>
-        Hello World sample application that responds to the deviceready event.
-    </description>
+    <description>Calculateur de note d'ECE</description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
 
