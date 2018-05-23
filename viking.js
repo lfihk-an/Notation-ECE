@@ -8,7 +8,15 @@ function change_coef(coefv, coefn)
   if (coefn == 4) {
       coefn = 0;
   }
+
   document.getElementById(coefv).innerHTML = coefn;
+  
+  if (coefn == 0) {
+    document.getElementById(coefv.substring(0, 3)+"_note").classList.add("disabled");
+  } else {
+    document.getElementById(coefv.substring(0, 3)+"_note").classList.remove("disabled");
+  }
+
   return coefn;
 }
 
