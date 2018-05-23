@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="387.65623"
-     inkscape:cy="-63.310301"
+     inkscape:cx="828.05227"
+     inkscape:cy="-344.72513"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -108,17 +108,20 @@
          style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:3.84927464;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       id="g861">
+       id="g996"
+       inkscape:export-filename="F:\GitHub\Note-ECE\res\screen\android\screen-xhdpi-landscape.png"
+       inkscape:export-xdpi="119.99999"
+       inkscape:export-ydpi="119.99999">
       <rect
          style="opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:30.70521355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect825"
          width="270.93332"
          height="132.29167"
-         x="35.680481"
-         y="202.53067"
-         ry="4.0474434" />
+         x="-5.1409469"
+         y="213.114"
+         ry="0" />
       <g
-         transform="matrix(2.0221212,0,0,2.0221212,-1.5632426,-188.7253)"
+         transform="matrix(2.0221212,0,0,2.0221212,-42.384671,-178.14197)"
          id="g849">
         <text
            id="text829"
@@ -165,10 +168,11 @@
       </g>
     </g>
     <g
-       inkscape:export-ydpi="433.49341"
-       inkscape:export-xdpi="433.49341"
+       inkscape:export-ydpi="47.625"
+       inkscape:export-xdpi="47.625"
        id="g901"
-       transform="matrix(1.7066667,0,0,1.7066667,-59.880844,5.3289859)">
+       transform="matrix(1.7066667,0,0,1.7066667,-59.880844,5.3289859)"
+       inkscape:export-filename="F:\GitHub\Note-ECE\res\icon\android\icon-96-xhdpi.png">
       <rect
          style="opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:4.86559486;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect883"
@@ -219,6 +223,127 @@
          cx="65.805534"
          cy="97.720757"
          r="0.69999999" />
+    </g>
+    <g
+       inkscape:export-ydpi="108.37335"
+       inkscape:export-xdpi="108.37335"
+       id="g881"
+       transform="translate(198.81547,50.648809)">
+      <rect
+         style="opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:4.86559486;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect863"
+         width="30"
+         height="30"
+         x="55.992962"
+         y="74.031403"
+         ry="2.2892756" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:12.40209579px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.31005239"
+         x="58.302361"
+         y="88.964661"
+         id="text867"><tspan
+           sodipodi:role="line"
+           id="tspan865"
+           x="58.302361"
+           y="88.964661"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.88251686px;font-family:Bariol;-inkscape-font-specification:Bariol;fill:#ffffff;stroke-width:0.31005239">ECE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:9.42285061px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23557128"
+         x="67.270248"
+         y="98.987389"
+         id="text873"><tspan
+           sodipodi:role="line"
+           id="tspan871"
+           x="67.270248"
+           y="98.987389"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bariol;-inkscape-font-specification:Bariol;stroke-width:0.23557128"><tspan
+             style="fill:#a02c2c;stroke-width:0.23557128"
+             id="tspan869">/20</tspan></tspan></text>
+      <circle
+         style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:3.84927464;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle875"
+         cx="61.418034"
+         cy="97.720757"
+         r="0.69999999" />
+      <circle
+         r="0.69999999"
+         cy="97.720757"
+         cx="63.611782"
+         id="circle877"
+         style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:3.84927464;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:3.84927464;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle879"
+         cx="65.805534"
+         cy="97.720757"
+         r="0.69999999" />
+    </g>
+    <g
+       id="g1009"
+       inkscape:export-filename="F:\GitHub\Note-ECE\res\screen\android\screen-xhdpi-portrait.png"
+       inkscape:export-xdpi="120.00001"
+       inkscape:export-ydpi="120.00001">
+      <g
+         transform="translate(269.875,-120.19643)"
+         id="g963">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:30.70521355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect898"
+           width="270.93332"
+           height="132.29167"
+           x="332.0253"
+           y="-233.51321"
+           ry="0"
+           transform="rotate(90)" />
+        <g
+           transform="matrix(2.0221212,0,0,2.0221212,-5.3430045,10.09017)"
+           id="g916">
+          <text
+             id="text902"
+             y="225.58301"
+             x="63.751873"
+             style="font-style:normal;font-weight:normal;font-size:21.16624451px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52915609"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39949608px;font-family:Bariol;-inkscape-font-specification:Bariol;fill:#ffffff;stroke-width:0.52915609"
+               y="225.58301"
+               x="63.751873"
+               id="tspan900"
+               sodipodi:role="line">ECE</tspan></text>
+          <text
+             id="text908"
+             y="242.68846"
+             x="79.057068"
+             style="font-style:normal;font-weight:normal;font-size:16.08166504px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40204167"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bariol;-inkscape-font-specification:Bariol;stroke-width:0.40204167"
+               y="242.68846"
+               x="79.057068"
+               id="tspan906"
+               sodipodi:role="line"><tspan
+                 id="tspan904"
+                 style="fill:#a02c2c;stroke-width:0.40204167">/20</tspan></tspan></text>
+          <circle
+             r="1.1946666"
+             cy="240.52675"
+             cx="69.069283"
+             id="circle910"
+             style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:6.56942892;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <circle
+             style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:6.56942892;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="circle912"
+             cx="72.813278"
+             cy="240.52675"
+             r="1.1946666" />
+          <circle
+             r="1.1946666"
+             cy="240.52675"
+             cx="76.557289"
+             id="circle914"
+             style="opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:6.56942892;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
     </g>
   </g>
 </svg>
