@@ -1,0 +1,55 @@
+<html style="height:100%;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Cutomization-->
+  	<link type="text/css" rel="stylesheet" href="viking.css"/>
+
+    <script src="viking.js"></script>
+
+		<title>Note ECE</title>
+
+	</head>
+
+
+	<body style="background-color:#f9f9f9;padding:0px;margin:0px;height:100%;font-family:bariol;">
+
+		<div style="padding:20px;margin:0px;">
+			<p>Projet d'élèves de l'option ICN Première du <a href="#" onclick="window.open(encodeURI('https://www.fis.edu.hk/fr'), '_blank', 'location=yes');">Lycée Français International "Victor Segalen" de Hong Kong</a></p>
+	    <p><b>But</b>: calculer facilement une note d'ECE</p>
+	    <p><b>Enseignement</b> : ICN (Informatique et Création Numérique) - Option de Première</p>
+	    <p><b>Enseignant responsable</b> : M. Abbal <a href="mailto:laurent@abbal.com" target="_blank"><i class="material-icons" style="color:#2d5ba0;">mail</i></a></p>
+			<div style="text-align:justify;padding:0px 0px 0px 0px;color:#F44336;"><b>ATTENTION</b> Cette application n'est pas une application officielle. Ne pas l'utilisée pour des examens officiels. Il s'agit d'une application développée par des élèves de l'option ICN Première du Lycée Français International de Hong Kong. La note calculée correspond au barème des ECE mais l'application doit être testée davantage. Si vous constatez une différence avec la notation officielle, merci de nous le faire savoir à cette adresse </div>
+		</div>
+
+    <!-- MENU -->
+    <div class="fixed-action-btn" style="position:fixed;right:20px;bottom:30px;">
+      <a class="btn-floating" style="background-color:#F44336;"><i class="large material-icons">layers</i></a>
+      <ul>
+        <li><a href="index.html" class="btn-floating btn-small blue-grey darken-3"><i class="material-icons">home</i></a></li>
+        <li><a href="about.html" class="btn-floating btn-small blue-grey darken-3"><i class="material-icons">info_outline</i></a></li>
+      </ul>
+    </div>
+
+		<script>
+				document.addEventListener('DOMContentLoaded', function() {
+						var elems = document.querySelectorAll('.fixed-action-btn');
+						var instances = M.FloatingActionButton.init(elems, {
+							direction: 'left',
+							hoverEnabled: false
+						});
+					});
+		</script>
+		<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+
+	</body>
+</html>

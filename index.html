@@ -21,42 +21,67 @@
     <table>
 
       <tr>
-        <td>  <img src='img/logo_note_ece.png' width="60" /></td>
-        <td></td>
+        <td><img src='img/logo_note_ece.png' width="60" /></td>
+        <td><div style="text-align:justify;padding:0px 20px 0px 0px;font-size:70%;color:#F44336;"><b>ATTENTION</b> Cette application n'est pas une application officielle. Ne pas l'utilisée pour des examens officiels. Il s'agit d'une application développée par des élèves de l'option ICN Première du Lycée Français International de Hong Kong. La note calculée correspond au barème des ECE mais l'application doit être testée davantage. Si vous constatez une différence avec la notation officielle, merci de nous le faire savoir à cette adresse </div></td>
       </tr>
 
       <tr>
-        <td style="width:30%;">APP<br /><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-small waves-effect waves-light blue-grey lighten-3" id="app_coef">0</button></td>
-        <td><button type="button" onclick="appNote = change_note('app_note',appNote)" class="btn-large waves-effect waves-light blue darken-3" id="app_note">A</button></td>
+        <td class="col_coef"></td>
+        <td><span id="notefinale">...</span><span class="survinght"> /20</span></td>
       </tr>
 
       <tr>
-        <td>VAL<br /><button type="button" onclick="valCoef = change_coef('val_coef',valCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="val_coef">0</button></td>
-        <td><button type="button" onclick="valNote = change_note('val_note',valNote)" class="btn-large waves-effect waves-light blue darken-3" id="val_note">A</button></td>
+        <td class="col_coef">APP<br /><button type="button" onclick="appCoef = change_coef('app_coef',appCoef)" class="btn-small waves-effect waves-light blue-grey lighten-3" id="app_coef">0</button></td>
+        <td class="col_abcd"><button type="button" onclick="appNote = change_note('app_note',appNote);notefinale();" class="bouton_lettre btn-large waves-effect waves-light blue darken-3" id="app_note">A</button></td>
       </tr>
 
       <tr>
-        <td>ANA<br /><button type="button" onclick="anaCoef = change_coef('ana_coef',anaCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="ana_coef">0</button></td>
-        <td><button type="button" onclick="anaNote = change_note('ana_note',anaNote)" class="btn-large waves-effect waves-light blue darken-3" id="ana_note">A</button></td>
+        <td class="col_coef">VAL<br /><button type="button" onclick="valCoef = change_coef('val_coef',valCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="val_coef">0</button></td>
+        <td class="col_abcd"><button type="button" onclick="valNote = change_note('val_note',valNote);notefinale();" class="bouton_lettre btn-large waves-effect waves-light blue darken-3" id="val_note">A</button></td>
       </tr>
 
       <tr>
-        <td>REA<br /><button type="button" onclick="reaCoef = change_coef('rea_coef',reaCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="rea_coef">0</button></td>
-        <td><button type="button" onclick="reaNote = change_note('rea_note',reaNote)" class="btn-large waves-effect waves-light blue darken-3" id="rea_note">A</button></td>
+        <td class="col_coef">ANA<br /><button type="button" onclick="anaCoef = change_coef('ana_coef',anaCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="ana_coef">0</button></td>
+        <td class="col_abcd"><button type="button" onclick="anaNote = change_note('ana_note',anaNote);notefinale();" class="bouton_lettre btn-large waves-effect waves-light blue darken-3" id="ana_note">A</button></td>
       </tr>
 
       <tr>
-        <td>COM<br /><button type="button" onclick="comCoef = change_coef('com_coef',comCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="com_coef">0</button></td>
-        <td><button type="button" onclick="comNote = change_note('com_note',comNote)" class="btn-large waves-effect waves-light blue darken-3" id="com_note">A</button></td>
+        <td class="col_coef">REA<br /><button type="button" onclick="reaCoef = change_coef('rea_coef',reaCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="rea_coef">0</button></td>
+        <td class="col_abcd"><button type="button" onclick="reaNote = change_note('rea_note',reaNote);notefinale();" class="bouton_lettre btn-large waves-effect waves-light blue darken-3" id="rea_note">A</button></td>
       </tr>
 
       <tr>
-        <td><button type="button" onclick="notefinale()" class="waves-effect waves-light btn-large #81c784">Calculer!</button></td>
-        <td><p  class="flow-text" id="notefinale"></p></td>
+        <td class="col_coef">COM<br /><button type="button" onclick="comCoef = change_coef('com_coef',comCoef)"  class="btn-small waves-effect waves-light blue-grey lighten-3" id="com_coef">0</button></td>
+        <td class="col_abcd"><button type="button" onclick="comNote = change_note('com_note',comNote);notefinale();" class="bouton_lettre btn-large waves-effect waves-light blue darken-3" id="com_note">A</button></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="text-align:right;">
+
+          <!-- MENU -->
+          <div class="fixed-action-btn">
+            <a class="btn-floating" style="background-color:#F44336;"><i class="large material-icons">layers</i></a>
+            <ul>
+              <li><a href="index.html" class="btn-floating btn-small blue-grey darken-3"><i class="material-icons">home</i></a></li>
+              <li><a href="about.html" class="btn-floating btn-small blue-grey darken-3"><i class="material-icons">info_outline</i></a></li>
+            </ul>
+          </div>
+
+        </td>
       </tr>
 
     </table>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+              direction: 'left',
+              hoverEnabled: false
+            });
+          });
+    </script>
+    <script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
 

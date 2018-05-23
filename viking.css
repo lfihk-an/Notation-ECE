@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'bariol';
-  src: url('fonts/Bariol_Bold.otf');
+  src: url('fonts/Bariol_Regular.otf');
 }
 
 @font-face {
@@ -53,4 +53,39 @@ tr {
 
 td {
   text-align:center;
+  padding:0px;
+  margin:0px;
+}
+
+.bouton_lettre {
+  width:90%;
+  height:90%;
+}
+
+.col_coef {
+  width:20%;
+}
+
+.col_coef button {
+  font-family:bariol;
+}
+
+.col_abcd button {
+  font-family:bariol;
+}
+
+#notefinale {
+ font-family: bariol;
+ font-size: 40px;
+}
+
+.survinght {
+   font-family: bariol;
+   color:silver;
+}
+
+.fixed-action-btn {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
 }
