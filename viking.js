@@ -21,8 +21,8 @@ function change_coef(coefv, coefn)
     document.getElementById(coefv.substring(0, 3)+"_note").classList.add("disabled");
   } else {
     document.getElementById(coefv.substring(0, 3)+"_note").classList.remove("disabled");
-    document.getElementById(notev).style.color = "#2980b9";
-    document.getElementById(notev).style.backgroundColor = "#3498db";
+    document.getElementById(coefv.substring(0, 3)+"_note").style.color = "#2980b9";
+    document.getElementById(coefv.substring(0, 3)+"_note").style.backgroundColor = "#3498db";
   }
 
   return coefn;
