@@ -14,7 +14,6 @@ function change_coef(coefv, coefn)
   if (coefn == 2) document.getElementById(coefv).style.backgroundColor = "#607d8b ";
   if (coefn == 3) document.getElementById(coefv).style.backgroundColor = "#455a64 ";
 
-
   document.getElementById(coefv).innerHTML = coefn;
 
 

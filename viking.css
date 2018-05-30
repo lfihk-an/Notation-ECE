@@ -62,9 +62,14 @@ td {
   margin:0px;
 }
 
+.btn.disabled, .disabled.btn-large, .disabled.btn-small, .btn-floating.disabled, .btn-large.disabled, .btn-small.disabled, .btn-flat.disabled, .btn:disabled, .btn-large:disabled, .btn-small:disabled, .btn-floating:disabled, .btn-large:disabled, .btn-small:disabled, .btn-flat:disabled, .btn[disabled], [disabled].btn-large, [disabled].btn-small, .btn-floating[disabled], .btn-large[disabled], .btn-small[disabled], .btn-flat[disabled] {
+  color: #d2d2d2 !important;
+}
+
 .bouton_lettre {
   width:90%;
   height:90%;
+  color:silver;
 }
 
 .col_coef {
