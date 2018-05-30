@@ -9,12 +9,21 @@ function change_coef(coefv, coefn)
       coefn = 0;
   }
 
+  if (coefn == 0) document.getElementById(coefv).style.backgroundColor = "#cfd8dc";
+  if (coefn == 1) document.getElementById(coefv).style.backgroundColor = "#90a4ae ";
+  if (coefn == 2) document.getElementById(coefv).style.backgroundColor = "#607d8b ";
+  if (coefn == 3) document.getElementById(coefv).style.backgroundColor = "#455a64 ";
+
+
   document.getElementById(coefv).innerHTML = coefn;
-  
+
+
   if (coefn == 0) {
     document.getElementById(coefv.substring(0, 3)+"_note").classList.add("disabled");
   } else {
     document.getElementById(coefv.substring(0, 3)+"_note").classList.remove("disabled");
+    document.getElementById(notev).style.color = "#2980b9";
+    document.getElementById(notev).style.backgroundColor = "#3498db";
   }
 
   return coefn;
@@ -25,19 +34,27 @@ function change_note(notev, noten)
   var noteir = document.getElementById(notev).textContent;
   if (noteir == 'A') {
     document.getElementById(notev).innerHTML = 'B';
-      noten = 1;
+    document.getElementById(notev).style.color = "#27ae60";
+    document.getElementById(notev).style.backgroundColor = "#2ecc71";
+    noten = 1;
   }
   if (noteir == 'B') {
     document.getElementById(notev).innerHTML = 'C';
-      noten = -1;
+    document.getElementById(notev).style.color = "#d35400";
+    document.getElementById(notev).style.backgroundColor = "#e67e22";
+    noten = -1;
   }
   if (noteir == 'C') {
     document.getElementById(notev).innerHTML = 'D';
-      noten = -2;
+    document.getElementById(notev).style.color = "#c0392b";
+    document.getElementById(notev).style.backgroundColor = "#e74c3c";
+    noten = -2;
   }
   if (noteir == 'D') {
     document.getElementById(notev).innerHTML = 'A';
-      noten = 2;
+    document.getElementById(notev).style.color = "#2980b9";
+    document.getElementById(notev).style.backgroundColor = "#3498db";
+    noten = 2;
   }
   return noten;
 }

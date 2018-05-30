@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: 'bariol_bold';
+  src: url('fonts/Bariol_Bold.otf');
+}
+
+@font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
@@ -71,7 +76,14 @@ td {
 }
 
 .col_abcd button {
-  font-family:bariol;
+  font-family:bariol_bold;
+  font-size:140%;
+  color:#2980b9;
+  background-color:#3498db;
+}
+
+.col_abcd button:hover {
+  background-color:#3498db;
 }
 
 #notefinale {
